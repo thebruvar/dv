@@ -96,3 +96,6 @@ deploy:
    - provider: script
      script: "${BUILD_DIR}/blt/scripts/travis/deploy_branch"
      skip_cleanup: true
+     on:
+       branch: develop
+       php: 5.6
