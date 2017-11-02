@@ -10,7 +10,7 @@ project:
 git:
   default_branch: master
   remotes:
-    - 'dv1@svn-6182.devcloud.hosting.acquia.com:dv1.git'
+    - 'dvcitest@svn-6634.devcloud.hosting.acquia.com:dvcitest.git'
 drush:
   aliases:
     remote: '${project.machine_name}.test'
@@ -115,6 +115,3 @@ import-content:
   test:
     migrate: false
     custom: false
-
-
-

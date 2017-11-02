@@ -36,9 +36,7 @@ cache:
 addons:
   ssh_known_hosts:
   # - svn-4786.devcloud.hosting.acquia.com
-  - svn-5223.devcloud.hosting.acquia.com
-  - svn-6182.devcloud.hosting.acquia.com
-
+  - svn-6634.devcloud.hosting.acquia.com
   # code climate integration
   code_climate:
     secure: hhFEmNdJQU4ui8ph2cdATzjU3QVxLdrugJSTcgoKJ0QVi7sV1Bk0LHa47icb6iCGg7mbljYoyeeVRZlCjVzx35vC+s34049WJDo/WMlZuscB3a6Z4UwDXC0oJl4j2VzCgdXPo9S40aDrtiLyM6Gj4ETy/kf4idL5PYVvEQiERsN7H9bchjoLtmNIbTYYyNVFqRoRwSvc0g2RT+Fu43hFeTQiHpNJ9bUZyautQKJ/gga2wirCiIqBrZPbocRkdJSxwJEzfQwKTu4AYjMtoRMW7W+mZsiXmxdteM8CpEM5PbXREC2AzXS9F8/+IGDk5riqVGobvvFtnp26MJBBS8UuVRHvN05D7Hf3FH5URg7EwRw/EWSSiGp/gmknRN2WGBiO/AQzekJ2oXHLTWbYxOYxfzjWFFD9gPbLNb3IdZhwYQnHjqkKjeYv88umo0mE1AUI4VAQKmQKfMQW/t3TN2fP2JWu4sghG1G1AJP015jAJ0h0S+esG+2k9UJMGgtdvE/xyjVaXm8tj+w71PiICo+1NNIg/R6NsD5imhJ0KZRydg5zAm2hLZQl5etmuaXajl9otgBqbX5xs2ueNcudecXn2CIfxCOyky175aDHcFZCYa8TkQxD7i8BQrERma1BFVUGv7Z+NDhFagtVcjCssn7jk9/7C2CCjQ0y6zBjer5MZtE=
