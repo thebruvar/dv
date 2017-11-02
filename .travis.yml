@@ -86,15 +86,15 @@ script:
 
 before_deploy:
 # Decrypt private key
-#  - openssl aes-256-cbc -K $encrypted_3fec15fb840c_key -iv $encrypted_3fec15fb840c_iv -in travis_acquia_pri.ppk.enc -out ~/.ssh/id_rsa -d
-#  - chmod 600 ~/.ssh/id_rsa
-#  - ls -lash ~/.ssh
-#  - eval "$(ssh-agent -s)"
-#  - ssh-add ~/.ssh/id_rsa
+  - openssl aes-256-cbc -K $encrypted_3fec15fb840c_key -iv $encrypted_3fec15fb840c_iv -in travis_acquia_pri.ppk.enc -out ~/.ssh/id_rsa -d
+  - chmod 600 ~/.ssh/id_rsa
+  - ls -lash ~/.ssh
+  - eval "$(ssh-agent -s)"
+  - ssh-add ~/.ssh/id_rsa
 
 deploy:
    - provider: script
-     script: "$BLT_DIR/scripts/travis/deploy_branch"
+     script: "$BUILD_DIR/blt/scripts/travis/deploy_branch"
      skip_cleanup: true
      on:
        branch: develop
